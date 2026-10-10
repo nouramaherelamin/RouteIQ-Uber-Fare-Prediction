@@ -1,0 +1,45 @@
+{
+  "target": "fare_amount",
+  "input_columns": [
+    "pickup_datetime",
+    "pickup_latitude",
+    "pickup_longitude",
+    "dropoff_latitude",
+    "dropoff_longitude",
+    "passenger_count",
+    "Car Condition",
+    "Weather",
+    "Traffic Condition"
+  ],
+  "categoricals_included": false,
+  "categorical_ablation": [
+    {
+      "categoricals_included": false,
+      "cv_mae_mean": 2.2606297964094892,
+      "cv_rmse_mean": 4.599778844943484,
+      "cv_r2_mean": 0.7672922643456065,
+      "cv_rmse_std": 0.36476782236595834
+    },
+    {
+      "categoricals_included": true,
+      "cv_mae_mean": 2.2611996613445844,
+      "cv_rmse_mean": 4.600675269565439,
+      "cv_r2_mean": 0.767205710491519,
+      "cv_rmse_std": 0.36389206017228737
+    }
+  ],
+  "selected_model": "Hist Gradient Boosting",
+  "best_random_forest_params": {
+    "model__n_estimators": 80,
+    "model__min_samples_leaf": 2,
+    "model__max_features": 0.7,
+    "model__max_depth": 18
+  },
+  "training_rows": 38990,
+  "test_rows": 9748,
+  "random_state": 42,
+  "cv": "5-fold shuffled KFold on training split",
+  "test_metrics_are_dollars": true,
+  "coordinate_input_unit": "degrees",
+  "reference_coordinates_note": "Approximate public coordinates in features.py; recompute supplied distance columns instead of trusting source columns."
+}

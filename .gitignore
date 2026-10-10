@@ -1,0 +1,10 @@
+﻿.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.env
+.env.*
+!.env.example
+analytics_project/data/raw/final_internship_data.xlsx

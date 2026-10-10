@@ -1,0 +1,142 @@
+{
+  "file": "data/raw/sample_50000.csv",
+  "shape": [
+    50000,
+    26
+  ],
+  "columns": [
+    "User ID",
+    "User Name",
+    "Driver Name",
+    "Car Condition",
+    "Weather",
+    "Traffic Condition",
+    "key",
+    "fare_amount",
+    "pickup_datetime",
+    "pickup_longitude",
+    "pickup_latitude",
+    "dropoff_longitude",
+    "dropoff_latitude",
+    "passenger_count",
+    "hour",
+    "day",
+    "month",
+    "weekday",
+    "year",
+    "jfk_dist",
+    "ewr_dist",
+    "lga_dist",
+    "sol_dist",
+    "nyc_dist",
+    "distance",
+    "bearing"
+  ],
+  "missing_values_total": 0,
+  "missing_by_column": {
+    "User ID": 0,
+    "User Name": 0,
+    "Driver Name": 0,
+    "Car Condition": 0,
+    "Weather": 0,
+    "Traffic Condition": 0,
+    "key": 0,
+    "fare_amount": 0,
+    "pickup_datetime": 0,
+    "pickup_longitude": 0,
+    "pickup_latitude": 0,
+    "dropoff_longitude": 0,
+    "dropoff_latitude": 0,
+    "passenger_count": 0,
+    "hour": 0,
+    "day": 0,
+    "month": 0,
+    "weekday": 0,
+    "year": 0,
+    "jfk_dist": 0,
+    "ewr_dist": 0,
+    "lga_dist": 0,
+    "sol_dist": 0,
+    "nyc_dist": 0,
+    "distance": 0,
+    "bearing": 0
+  },
+  "exact_duplicate_rows": 0,
+  "key_duplicate_rows_after_first": 445,
+  "user_id_unique": true,
+  "pickup_datetime_min": "2009-01-01 01:31:49",
+  "pickup_datetime_max": "2015-06-30 22:42:39",
+  "datetime_parse_failures": 0,
+  "datetime_derived_columns_match_fraction": {
+    "hour": 1.0,
+    "day": 1.0,
+    "month": 1.0,
+    "weekday": 1.0,
+    "year": 1.0
+  },
+  "coordinate_units": "radians in source CSV; degrees after conversion",
+  "nyc_bounds_degrees": {
+    "lat_min": 40.45,
+    "lat_max": 41.05,
+    "lon_min": -74.3,
+    "lon_max": -73.6
+  },
+  "zero_zero_pickups": 953,
+  "zero_zero_dropoffs": 955,
+  "rows_outside_bounds_or_invalid_coordinates": 1095,
+  "invalid_coordinate_fraction": 0.0219,
+  "fare_summary": {
+    "count": 50000.0,
+    "mean": 11.364171400000002,
+    "std": 9.685557457879614,
+    "min": -5.0,
+    "50%": 8.5,
+    "90%": 20.5,
+    "95%": 30.5,
+    "99%": 52.0,
+    "max": 200.0
+  },
+  "fare_skew": 3.56210107749979,
+  "fare_nonpositive_rows": 9,
+  "fare_below_2_5_rows": 10,
+  "passenger_count_counts": {
+    "0": 165,
+    "1": 34808,
+    "2": 7386,
+    "3": 2183,
+    "4": 1016,
+    "5": 3453,
+    "6": 989
+  },
+  "categorical_levels": {
+    "Car Condition": {
+      "Good": 12543,
+      "Bad": 12537,
+      "Very Good": 12484,
+      "Excellent": 12436
+    },
+    "Weather": {
+      "sunny": 10110,
+      "stormy": 10017,
+      "rainy": 10010,
+      "windy": 9959,
+      "cloudy": 9904
+    },
+    "Traffic Condition": {
+      "Flow Traffic": 16698,
+      "Dense Traffic": 16657,
+      "Congested Traffic": 16645
+    }
+  },
+  "bearing_source_range": [
+    -3.14146556136469,
+    3.141592653589793
+  ],
+  "bearing_units_note": "Values appear to be radians; verify range and distribution before conversion.",
+  "distance_check": {
+    "median_abs_difference_km": 5.974495204119634e-12,
+    "note": "Computed after degree conversion; invalid coordinates can make this comparison meaningless."
+  }
+}
+
+Saved: /mnt/data/uber-fare-prediction/reports/audit.json
