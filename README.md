@@ -8,6 +8,7 @@
 
 -   [Project Overview](#project-overview)
 -   [Main Applications](#main-applications)
+-   [Live Demo](#live-demo)
 -   [Features](#features)
 -   [Technology Stack](#technology-stack)
 -   [Project Structure](#project-structure)
@@ -45,6 +46,15 @@ They run as separate local services, but provide navigation links to
 move between them. Keep the analytics dashboard, Flask app, training
 code, tests, data, and notebooks as separate components; each has a
 different purpose.
+
+## Live Demo
+
+Try the deployed applications:
+
+- **RouteIQ Fare Prediction (Vercel):** https://nouramaherelamin-route-iq-uber-fare-prediction.vercel.app/
+- **Uber Fare Analytics Dashboard (Streamlit):** https://nouramaherelamin-uber-fare-prediction-dashboard.streamlit.app/
+
+The prediction interface and analytics dashboard are deployed as separate applications. Use the links above to open each one.
 
 ## Main Applications
 
@@ -426,12 +436,13 @@ python -m streamlit run analytics_project/interactive_dashboard/app.py --server.
     private datasets to a public repository unless they are intended to
     be shared.
 
-## Author
-
+# Author
+<div align="center">
+  
 **Noura Maher Elamin**
 
--   GitHub: <https://github.com/nouramaherelamin>
--   LinkedIn: <https://www.linkedin.com/in/nouramaherelamin/>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/nouramaherelamin/)
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/nouramaherelamin)
 
 ------------------------------------------------------------------------
 
