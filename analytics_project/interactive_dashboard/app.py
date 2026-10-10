@@ -1170,7 +1170,7 @@ def render_sidebar(df: pd.DataFrame) -> None:
         st.markdown("# Uber Fare <span style='color:#2FE6B3'>EDA</span>", unsafe_allow_html=True)
         st.caption("Interactive Task 1 analytics")
         st.markdown("""<div style="margin:10px 0 16px;">
-          <a href="http://127.0.0.1:5000" target="_blank" rel="noopener noreferrer"
+          <a href="https://nouramaherelamin-route-iq-uber-fare-prediction.vercel.app/" target="_blank" rel="noopener noreferrer"
              style="display:inline-flex;align-items:center;gap:7px;max-width:100%;box-sizing:border-box;
              text-decoration:none!important;border:1px solid #24434A;border-radius:999px;
              padding:9px 12px;background:rgba(13,21,25,.78);color:#35C7E8!important;
