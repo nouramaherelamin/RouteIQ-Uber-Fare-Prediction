@@ -455,7 +455,8 @@ python -m streamlit run analytics_project/interactive_dashboard/app.py --server.
     private datasets to a public repository unless they are intended to
     be shared.
 
-## 👩‍💻 Author
+# Author
+<div align="center">
   
 **Noura Maher Elamin**
 
@@ -464,4 +465,4 @@ python -m streamlit run analytics_project/interactive_dashboard/app.py --server.
 
 ---
 
-<div align="center">**RouteIQ** · Uber Fare Prediction & Interactive Analytics</div>
+**RouteIQ** · Uber Fare Prediction & Interactive Analytics</div>
